@@ -2,8 +2,8 @@
 import './index.css'
 
 const ThumbnailItem = props => {
-  const {imageDetails, isActive, setActiveThumbnailId} = props
-  const {thumbnailUrl, thumbnailAltText, id} = imageDetails
+  const {imagesDetails, isActive, setActiveThumbnailId} = props
+  const {thumbnailUrl, thumbnailAltText, id} = imagesDetails
   const thumbnailClassName = isActive ? 'thumbnail active' : 'thumbnail'
 
   const onClickThumbnail = () => {
